@@ -1,0 +1,240 @@
+1	block on 1 proto tcp from 150.238.231.223 port 123 to 160.164.221.72
+2	block on 1 proto tcp from 150.238.231.223 port 119 to 160.164.221.72
+3	block on 1 proto tcp from 150.238.231.223 port 119 to 160.164.221.72
+4	block on 1 proto tcp from 150.238.231.223 port 53 to 160.164.221.72
+5	block on 1 proto tcp from 123.127.192.128 port 123 to 76.251.66.141
+6	block on 1 proto tcp from 150.238.231.220/31 port 53 to 160.164.221.72
+7	block on 1 proto tcp from 123.127.192.130/31 port 53 to 76.251.67.168
+8	block on 1 proto tcp from 123.127.192.130/31 port 53 to 76.251.66.141
+9	block on 1 proto tcp from 150.238.231.223 port 53 to 160.164.221.74/31
+10	block on 1 proto tcp from 150.238.231.223 port 53 to 160.164.221.74/31
+11	block on 1 proto tcp from 123.127.192.128 port 53 to 76.251.67.170/31
+12	block on 1 proto tcp from 123.127.192.128 port 53 to 76.251.66.142/31
+13	block on 1 proto tcp from 150.238.231.216/30 port 123 to 160.164.221.72
+14	block on 1 proto tcp from 150.238.231.220/31 port 53 to 160.164.221.74/31
+15	block on 1 proto tcp from 123.127.192.130/31 port 119 to 76.251.67.170/31
+16	block on 1 proto tcp from 150.238.231.208/29 port 123 to 160.164.221.72
+17	block on 1 proto tcp from 150.238.231.220/31 port 123 to 160.164.221.76/30
+18	block on 1 proto tcp from 123.127.192.132/30 port 53 to 76.251.66.142/31
+19	block on 1 proto tcp from 150.238.231.220/31 port 53 to 160.164.221.64/29
+20	block on 1 proto tcp from 150.238.231.192/28 port 123 to 160.164.221.72
+21	block on 1 proto tcp from 150.238.231.128/26 port 20 to 160.164.221.74/31
+22	block on 1 proto tcp from 123.127.192.128 port 53 to 76.251.66.141
+23	block on 1 proto tcp from 150.238.231.223 port 53 to 160.164.221.76/30
+24	block on 1 proto tcp from 150.238.231.223 port 123 to 160.164.221.76/30
+25	block on 1 proto tcp from 123.127.192.132/30 port 123 to 76.251.67.168
+26	block on 1 proto tcp from 150.238.231.223 to 160.164.221.72
+27	block on 1 proto tcp from 123.127.192.128 to 76.251.66.128/29
+28	block on 1 proto tcp from 150.238.231.208/29 to 160.164.221.76/30
+29	block on 1 proto tcp from 123.127.192.128 to 76.251.67.128/27
+30	block on 1 proto tcp from 123.127.192.0/25 to 76.251.67.168
+31	block on 1 proto tcp from 123.127.192.128 to 76.251.66.141
+32	block on 1 proto tcp from 150.238.231.220/31 to 160.164.221.76/30
+33	block on 1 proto tcp from 150.238.230.0/24 port 53 to 160.128.0.0/11
+34	block on 1 proto tcp from 123.127.192.0/25 port 53 to 76.128.0.0/10
+35	block on 1 proto tcp from 123.127.192.160/27 to 76.251.66.141
+36	block on 1 proto tcp from 150.238.240.0/20 port 53 to 160.168.0.0/13
+37	block on 1 proto tcp from 123.127.192.132/30 port 53 to 96.0.0.0/3
+38	block on 1 proto tcp from 123.127.192.0/25 to 76.251.66.141
+39	block on 1 proto tcp from 123.127.192.130/31 port 53 to 0.0.0.0/2
+40	block on 1 proto tcp from 123.127.192.136/29 to 76.251.67.128/27
+41	block on 1 proto tcp from 123.127.192.132/30 port 53 to 0.0.0.0/2
+42	block on 1 proto tcp from 123.127.192.132/30 port 53 to 0.0.0.0/2
+43	block on 1 proto tcp from 123.127.192.160/27 port 123 to 64.0.0.0/5
+44	block on 1 proto tcp from 123.127.192.130/31 port 25 to 0.0.0.0/1
+45	block on 1 proto tcp from 150.238.231.208/29 port 53 to 192.0.0.0/2
+46	block on 1 proto tcp from 123.127.192.130/31 port 80 to any
+47	block on 1 proto tcp from 123.127.192.132/30 port 80 to 0.0.0.0/1
+48	block on 1 proto tcp from 123.127.192.136/29 port 119 to 0.0.0.0/1
+49	block on 1 proto tcp from 150.238.231.128/26 port 20 to 128.0.0.0/3
+50	block on 1 proto tcp from 123.127.196.0/22 port 53 to 78.0.0.0/7
+51	block on 1 proto tcp from 150.238.231.0/25 port 53 to 128.0.0.0/3
+52	block on 1 proto tcp from 150.238.230.0/24 port 119 to 176.0.0.0/4
+53	block on 1 proto tcp from 150.238.224.0/22 port 123 to 164.0.0.0/6
+54	block on 1 proto tcp from 123.127.200.0/21 port 53 to 78.0.0.0/7
+55	block on 1 proto tcp from 150.238.231.128/26 port 53 to 128.0.0.0/1
+56	block on 1 proto tcp from 150.238.232.0/21 port 119 to 164.0.0.0/6
+57	block on 1 proto tcp from 123.127.200.0/21 port 123 to 72.0.0.0/6
+58	block on 1 proto tcp from 123.127.192.144/28 port 53 to 78.0.0.0/7
+59	block on 1 proto tcp from 123.127.196.0/22 port 53 to 64.0.0.0/5
+60	block on 1 proto tcp from 123.127.192.160/27 port 53 to any
+61	block on 1 proto tcp from 150.238.231.0/25 port 53 to 128.0.0.0/1
+62	block on 1 proto tcp from 123.127.192.0/25 port 123 to 0.0.0.0/1
+63	block on 1 proto tcp from 123.127.193.0/24 port 123 to 0.0.0.0/2
+64	block on 1 proto tcp from 123.127.194.0/23 port 123 to 96.0.0.0/3
+65	block on 1 proto tcp from 150.238.231.0/25 port 53 to any
+66	block on 1 proto tcp from 123.127.192.0/25 port 53 to any
+67	block on 1 proto tcp from 150.238.228.0/23 port 25 to 192.0.0.0/2
+68	block on 1 proto tcp from 150.238.232.0/21 port 123 to 176.0.0.0/4
+69	block on 1 proto tcp from 123.127.0.0/17 port 123 to 77.0.0.0/8
+70	block on 1 proto tcp from 123.127.196.0/22 port 53 to 96.0.0.0/3
+71	block on 1 proto tcp from 123.127.224.0/19 port 53 to 72.0.0.0/6
+72	block on 1 proto tcp from 150.238.192.0/19 port 119 to 168.0.0.0/5
+73	block on 1 proto tcp from 150.238.228.0/23 port 119 to 128.0.0.0/1
+74	block on 1 proto tcp from 150.238.228.0/23 port 123 to 128.0.0.0/1
+75	block on 1 proto tcp from 150.238.231.216/30 port 119 to 192.0.0.0/2
+76	block on 1 proto tcp from 123.127.200.0/21 port 123 to 96.0.0.0/3
+77	block on 1 proto tcp from 123.127.193.0/24 port 53 to any
+78	block on 1 proto tcp from 150.238.231.216/30 to 160.0.0.0/9
+79	block on 1 proto tcp from 150.238.228.0/23 port 53 to any
+80	block on 1 proto tcp from 123.127.194.0/23 port 53 to any
+81	block on 1 proto tcp from 150.238.224.0/22 port 20 to any
+82	block on 1 proto tcp from 150.238.224.0/22 port 123 to any
+83	block on 1 proto tcp from 150.238.240.0/20 port 53 to 192.0.0.0/2
+84	block on 1 proto tcp from 150.238.240.0/20 port 53 to 192.0.0.0/2
+85	block on 1 proto tcp from 150.238.240.0/20 port 123 to 192.0.0.0/2
+86	block on 1 proto tcp from 122.0.0.0/8 to 76.251.67.172/30
+87	block on 1 proto tcp from 150.238.192.0/19 port 119 to 192.0.0.0/2
+88	block on 1 proto tcp from 150.238.232.0/21 port 53 to any
+89	block on 1 proto tcp from 123.127.200.0/21 port 53 to any
+90	block on 1 proto tcp from 150.239.0.0/16 port 53 to 168.0.0.0/5
+91	block on 1 proto tcp from 150.238.224.0/22 port 21 to 162.0.0.0/7
+92	block on 1 proto tcp from 123.127.208.0/20 port 119 to 0.0.0.0/1
+93	block on 1 proto tcp from 123.127.208.0/20 port 53 to 0.0.0.0/1
+94	block on 1 proto tcp from 123.127.128.0/18 port 53 to 96.0.0.0/3
+95	block on 1 proto tcp from 123.127.128.0/18 port 119 to 96.0.0.0/3
+96	block on 1 proto tcp from 150.238.0.0/17 port 21 to 128.0.0.0/3
+97	block on 1 proto tcp from 150.238.240.0/20 port 119 to any
+98	block on 1 proto tcp from 150.238.240.0/20 port 123 to any
+99	block on 1 proto tcp from 150.238.240.0/20 port 53 to any
+100	block on 1 proto tcp from 123.124.0.0/15 port 53 to 64.0.0.0/5
+101	block on 1 proto tcp from 123.120.0.0/14 port 53 to 72.0.0.0/6
+102	block on 1 proto tcp from 123.126.0.0/16 port 80 to 80.0.0.0/4
+103	block on 1 proto tcp from 150.238.192.0/19 port 53 to any
+104	block on 1 proto tcp from 150.236.0.0/15 port 123 to 176.0.0.0/4
+105	block on 1 proto tcp from 123.127.0.0/17 port 119 to 0.0.0.0/2
+106	block on 1 proto tcp from 150.238.0.0/17 port 119 to 128.0.0.0/1
+107	block on 1 proto tcp from 123.127.0.0/17 port 119 to 0.0.0.0/1
+108	block on 1 proto tcp from 150.238.128.0/18 port 119 to any
+109	block on 1 proto tcp from 123.127.128.0/18 port 123 to any
+110	block on 1 proto tcp from 123.127.128.0/18 port 21 to any
+111	block on 1 proto tcp from 123.127.128.0/18 port 123 to any
+112	block on 1 proto tcp from 123.127.192.144/28 port 1024:65535 to 64.0.0.0/5
+113	block on 1 proto tcp from 123.127.192.160/27 port 1024:65535 to 72.0.0.0/6
+114	block on 1 proto tcp from 150.239.0.0/16 port 119 to 128.0.0.0/1
+115	block on 1 proto tcp from 150.239.0.0/16 port 123 to 128.0.0.0/1
+116	block on 1 proto tcp from 123.126.0.0/16 port 53 to 0.0.0.0/1
+117	block on 1 proto tcp from 150.238.0.0/17 port 80 to any
+118	block on 1 proto tcp from 123.127.0.0/17 port 53 to any
+119	block on 1 proto tcp from 150.238.240.0/20 port 53 to 168.0.0.0/5
+120	block on 1 proto tcp from 150.238.228.0/23 port 123 to 192.0.0.0/2
+121	block on 1 proto tcp from 150.239.0.0/16 port 53 to 161.0.0.0/8
+122	block on 1 proto tcp from 150.236.0.0/15 port 53 to 128.0.0.0/1
+123	block on 1 proto tcp from 150.240.0.0/12 port 123 to 192.0.0.0/2
+124	block on 1 proto tcp from 123.96.0.0/12 port 53 to 0.0.0.0/2
+125	block on 1 proto tcp from 123.96.0.0/12 port 80 to 0.0.0.0/2
+126	block on 1 proto tcp from 128.0.0.0/1 to 76.251.248.200/29
+127	block on 1 proto tcp from 150.232.0.0/14 port 119 to any
+128	block on 1 proto tcp from 123.112.0.0/13 port 123 to 0.0.0.0/1
+129	block on 1 proto tcp from 123.127.192.192/26 port 1024:65535 to 96.0.0.0/3
+130	block on 1 proto tcp from 123.127.192.132/30 to any
+131	block on 1 proto tcp from 150.240.0.0/12 port 123 to 128.0.0.0/1
+132	block on 1 proto tcp from 150.240.0.0/12 port 119 to 128.0.0.0/1
+133	block on 1 proto tcp from 123.64.0.0/11 port 53 to 0.0.0.0/2
+134	block on 1 proto tcp from 123.127.0.0/17 port 53 to 80.0.0.0/4
+135	block on 1 proto tcp from 150.238.231.128/26 port 1024:65535 to 128.0.0.0/1
+136	block on 1 proto tcp from 150.128.0.0/10 port 53 to 192.0.0.0/2
+137	block on 1 proto tcp from 150.0.0.0/9 port 123 to 128.0.0.0/3
+138	block on 1 proto tcp from 123.64.0.0/11 port 123 to 0.0.0.0/1
+139	block on 1 proto tcp from 123.127.192.0/25 port 1024:65535 to 0.0.0.0/2
+140	block on 1 proto tcp from 123.127.208.0/20 port 1024:65535 to 78.0.0.0/7
+141	block on 1 proto tcp from 150.238.224.0/22 port 1024:65535 to 176.0.0.0/4
+142	block on 1 proto tcp from 123.64.0.0/11 port 119 to any
+143	block on 1 proto tcp from 123.127.192.0/25 port 1024:65535 to 0.0.0.0/1
+144	block on 1 proto tcp from 123.127.200.0/21 port 1024:65535 to 80.0.0.0/4
+145	block on 1 proto tcp from any to 160.164.221.0/26
+146	block on 1 proto tcp from 123.0.0.0/10 port 123 to any
+147	block on 1 proto tcp from 150.238.228.0/23 to 192.0.0.0/2
+148	block on 1 proto tcp from 150.238.240.0/20 port 1024:65535 to 176.0.0.0/4
+149	block on 1 proto tcp from 128.0.0.0/1 to 76.251.249.0/24
+150	block on 1 proto tcp from 150.238.192.0/19 port 1024:65535 to 168.0.0.0/5
+151	block on 1 proto tcp from 123.127.196.0/22 port 1024:65535 to 0.0.0.0/2
+152	block on 1 proto tcp from 123.126.0.0/16 port 119 to 0.0.0.0/1
+153	block on 1 proto tcp from 0.0.0.0/2 to 76.251.64.0/23
+154	block on 1 proto tcp from any to 160.164.220.0/24
+155	block on 1 proto tcp from 150.239.0.0/16 port 80 to any
+156	block on 1 proto tcp from 144.0.0.0/6 to 160.164.128.0/18
+157	block on 1 proto tcp from 150.238.228.0/23 port 1024:65535 to any
+158	block on 1 proto tcp from 123.127.194.0/23 port 1024:65535 to any
+159	block on 1 proto tcp from 152.0.0.0/5 to 160.164.221.96/27
+160	block on 1 proto tcp from 150.238.192.0/19 port 1024:65535 to 176.0.0.0/4
+161	block on 1 proto tcp from 150.238.232.0/21 port 1024:65535 to 192.0.0.0/2
+162	block on 1 proto tcp from 150.238.232.0/21 port 1024:65535 to 192.0.0.0/2
+163	block on 1 proto tcp from 152.0.0.0/5 to 160.164.128.0/18
+164	block on 1 proto tcp from 150.238.232.0/21 port 1024:65535 to 128.0.0.0/1
+165	block on 1 proto tcp from 150.238.224.0/22 port 1024:65535 to any
+166	block on 1 proto tcp from 150.238.240.0/20 port 1024:65535 to 192.0.0.0/2
+167	block on 1 proto tcp from 150.238.224.0/22 to 128.0.0.0/1
+168	block on 1 proto tcp from 123.127.128.0/18 to 64.0.0.0/5
+169	block on 1 proto tcp from 123.127.194.0/23 to any
+170	block on 1 proto tcp from 0.0.0.0/2 to 76.251.72.0/21
+171	block on 1 proto tcp from 150.238.0.0/17 port 1024:65535 to 176.0.0.0/4
+172	block on 1 proto tcp from 123.127.193.0/24 to 72.0.0.0/6
+173	block on 1 proto tcp from 123.127.208.0/20 to 0.0.0.0/2
+174	block on 1 proto tcp from 150.238.232.0/21 to any
+175	block on 1 proto tcp from 150.238.128.0/18 to 128.0.0.0/3
+176	block on 1 proto tcp from 150.240.0.0/12 port 123 to 128.0.0.0/1
+177	block on 1 proto tcp from 128.0.0.0/1 to 76.251.224.0/20
+178	block on 1 proto tcp from 123.127.208.0/20 port 1024:65535 to any
+179	block on 1 proto tcp from 123.127.224.0/19 to 0.0.0.0/2
+180	block on 1 proto tcp from 123.127.208.0/20 to 0.0.0.0/1
+181	block on 1 proto tcp from 123.127.128.0/18 port 1024:65535 to 0.0.0.0/2
+182	block on 1 proto tcp from 123.127.0.0/17 port 1024:65535 to 96.0.0.0/3
+183	block on 1 proto tcp from any to 160.164.208.0/21
+184	block on 1 proto tcp from 150.238.0.0/17 port 1024:65535 to 192.0.0.0/2
+185	block on 1 proto tcp from 150.238.192.0/19 port 1024:65535 to any
+186	block on 1 proto tcp from 150.238.230.0/24 to 176.0.0.0/4
+187	block on 1 proto tcp from 150.238.240.0/20 to any
+188	block on 1 proto tcp from any to 160.164.221.80/28
+189	block on 1 proto tcp from 150.236.0.0/15 port 1024:65535 to 176.0.0.0/4
+190	block on 1 proto tcp from 0.0.0.0/2 to 76.251.0.0/18
+191	block on 1 proto tcp from 123.127.128.0/18 port 1024:65535 to 0.0.0.0/1
+192	block on 1 proto tcp from 150.192.0.0/11 port 53 to any
+193	block on 1 proto tcp from 150.240.0.0/12 to 162.0.0.0/7
+194	block on 1 proto tcp from 123.120.0.0/14 to 64.0.0.0/5
+195	block on 1 proto tcp from 112.0.0.0/5 to 76.251.68.0/22
+196	block on 1 proto tcp from 150.238.128.0/18 to any
+197	block on 1 proto tcp from 150.238.231.128/26 to any
+198	block on 1 proto tcp from 123.127.192.192/26 to any
+199	block on 1 proto tcp from 123.127.0.0/17 port 1024:65535 to any
+200	block on 1 proto tcp from 128.0.0.0/4 to 160.164.208.0/21
+201	block on 1 proto tcp from any to 160.164.221.128/25
+202	block on 1 proto tcp from 150.239.0.0/16 to 128.0.0.0/1
+203	block on 1 proto tcp from 123.127.196.0/22 to 96.0.0.0/3
+204	block on 1 proto tcp from 123.126.0.0/16 port 1024:65535 to any
+205	block on 1 proto tcp from 123.124.0.0/15 port 1024:65535 to any
+206	block on 1 proto tcp from 123.127.194.0/23 to 0.0.0.0/1
+207	block on 1 proto tcp from 123.127.193.0/24 to any
+208	block on 1 proto tcp from 0.0.0.0/2 to 76.251.68.0/22
+209	block on 1 proto tcp from 128.0.0.0/1 to 76.251.252.0/22
+210	block on 1 proto tcp from any to 76.251.250.0/23
+211	block on 1 proto tcp from 128.0.0.0/1 to 76.251.240.0/21
+212	block on 1 proto tcp from 0.0.0.0/2 to 76.251.224.0/20
+213	block on 1 proto tcp from 123.127.208.0/20 to 0.0.0.0/2
+214	block on 1 proto tcp from 150.238.232.0/21 to any
+215	block on 1 proto tcp from 192.0.0.0/2 to 160.164.224.0/19
+216	block on 1 proto tcp from 150.238.240.0/20 to 128.0.0.0/1
+217	block on 1 proto tcp from 0.0.0.0/1 to 160.164.192.0/20
+218	block on 1 proto tcp from 123.127.128.0/18 to 96.0.0.0/3
+219	block on 1 proto tcp from 123.96.0.0/12 port 1024:65535 to any
+220	block on 1 proto tcp from 150.239.0.0/16 to 176.0.0.0/4
+221	block on 1 proto tcp from 150.192.0.0/11 to 160.0.0.0/9
+222	block on 1 proto tcp from 123.64.0.0/11 to 76.0.0.0/9
+223	block on 1 proto tcp from 0.0.0.0/2 to 76.251.128.0/18
+224	block on 1 proto tcp from any to 160.164.192.0/20
+225	block on 1 proto tcp from 123.96.0.0/12 to 77.0.0.0/8
+226	block on 1 proto tcp from 150.238.192.0/19 to any
+227	block on 1 proto tcp from 123.127.224.0/19 to any
+228	block on 1 proto tcp from 123.96.0.0/12 to 78.0.0.0/7
+229	block on 1 proto tcp from 123.127.0.0/17 to 0.0.0.0/1
+230	block on 1 proto tcp from 123.124.0.0/15 to 0.0.0.0/1
+231	block on 1 proto tcp from 0.0.0.0/1 to 168.0.0.0/5
+232	block on 1 proto tcp from 124.0.0.0/6 to 77.0.0.0/8
+233	block on 1 proto tcp from 152.0.0.0/5 to 164.0.0.0/6
+234	block on 1 proto tcp from any to 128.0.0.0/1
+235	block on 1 proto tcp from any to any
+236	block on 1 proto tcp from 192.0.0.0/2 to 128.0.0.0/1
+237	block on 1 proto tcp from 192.0.0.0/2 to any
+238	block on 1 proto tcp from any to 128.0.0.0/1
+239	block on 1 proto tcp from any to 0.0.0.0/1
+240	block on 1 proto tcp from any to any
